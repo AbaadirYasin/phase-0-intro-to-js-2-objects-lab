@@ -1,6 +1,6 @@
 const employee = {
-    name: "John Doe",
-    streetAddress: "123 Main St",
+    name: "Ali Abaadir",
+    streetAddress: " lenana St",
   };
   
   function updateEmployeeWithKeyAndValue(employee, key, value) {
@@ -24,7 +24,7 @@ const employee = {
   }
   
   // Example usage:
-  const updatedEmployee = updateEmployeeWithKeyAndValue(employee, "name", "Jane Doe");
+  const updatedEmployee = updateEmployeeWithKeyAndValue(employee, "name", "Ali Abaadir");
   const deletedEmployee = deleteFromEmployeeByKey(employee, "streetAddress");
   
   console.log(updatedEmployee);
